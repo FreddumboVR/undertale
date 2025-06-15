@@ -108,7 +108,7 @@ game.splash("UnderTale:", "A battle from Undertale.")
 game.splash("I don't know how to make", "the player attack sorry.")
 game.splash("Dodge the balls.", "You stinky butt-face.")
 tiles.setCurrentTilemap(tilemap`level1`)
-carnival.startCountdownGame(10000000000000, carnival.WinTypes.Win)
+carnival.startCountdownGame(40, carnival.WinTypes.Win)
 let Heart = sprites.create(img`
     . . . . . . . . . . . . . . . . 
     . . . . . . . . . . . . . . . . 
